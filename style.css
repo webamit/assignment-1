@@ -1,3 +1,50 @@
-p{
-    color: brown;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrap{
+ 
+}
+
+.header-area{
+width: 100%;
+background-image: url(images/donation3\ copy.jpg);
+background-position: center center;
+background-size: cover;
+
+
+}
+
+.header-area-content{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 200px  0;
+    color: #fff;
+}
+
+.header-area-content h1{
+font-size: 62px;
+font-weight: 800;
+line-height: 71px;
+padding-bottom: 20px;
+}
+
+.header-area-content p{
+    padding-bottom: 40px;
+}
+
+.donate-button{
+
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+    background: #ff5959;
+    border-radius: 7px;
+    font-size: 18px;
 }
