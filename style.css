@@ -1,48 +1,115 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
 
 
-.header-area{
-width: 100%;
-background-image: url(images/donation3\ copy.jpg);
-background-position: center center;
-background-size: cover;
+.header-area {
+    width: 100%;
+    background: linear-gradient(0deg, rgb(0 0 0), rgba(0, 0, 0, 0.137)), url(images/donation3.jpg);
+    background-position: center center;
+    background-size: cover;
 
 
 }
 
-.header-area-content{
+.section-wrap {
     width: 60%;
+}
+
+.header-area-content {
     margin: 0 auto;
     text-align: center;
-    padding: 200px  0;
+    padding: 200px 0;
     color: #fff;
+
 }
 
-.header-area-content h1{
-font-size: 62px;
-font-weight: 800;
-line-height: 71px;
-padding-bottom: 20px;
+.header-area-content h1 {
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 71px;
+    padding-bottom: 20px;
 }
 
-.header-area-content p{
+.header-area-content p {
     padding-bottom: 40px;
 }
 
-.donate-button{
+.donate-button {
 
     text-decoration: none;
     color: white;
-    padding: 15px 40px;
+    padding: 15px 30px;
     background: #ff5959;
     border-radius: 7px;
     font-size: 18px;
+}
+
+.donate-today-area {
+    width: 100%;
+
+}
+
+.donate-today-area-content {
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.donate-today-area-content h1 {
+    font-size: 43px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.donate-today-area-content p {
+    color: #6a6868;
+}
+
+.donation-amount {
+    text-align: center;
+    padding: 23px 40px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 37px;
+    margin-top: 20px;
+    color: #000000;
+    font-size: 19px;
+}
+
+.donation-amount:focus-visible {
+    outline: none;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.donate-amount-options {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.donation-single-amount {
+    padding: 38px 38px;
+    background: #f3f3f3;
+    margin: 0 2px;
+    font-size: 22px;
+    border-radius: 3px;
+    font-weight: 600;
+    color: #706f6f;
+}
+
+.amount-selected {
+    background: #ebc6c3;
+    border: 2px solid #ff5959;
+    color: #ff5959;
+}
 }
