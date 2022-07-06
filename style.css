@@ -110,6 +110,84 @@ body {
 .amount-selected {
     background: #ebc6c3;
     border: 2px solid #ff5959;
-    color: #ff5959;
+<<<<<<< HEAD
+  
 }
+
+.amount-selected p{
+    color:#ff5959; ;
+}
+
+
+footer{
+    text-align: center;
+    background: #000000;
+    color: #fff;
+    padding: 30px 0;
+}
+
+#footer-slogan{
+    color: #ff5959;
+    padding-bottom: 20px;;
+    font-size: 25px;
+}
+
+.donate-plan-area{
+    width: 100%;
+}
+
+.donate-plan-area-content{
+margin: auto;
+text-align: center;
+width: 80%;
+
+}
+
+.donate-plan-heading-area{
+    margin-bottom: 50px;
+}
+
+.donate-plan-options{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.donate-plan-heading-area h1 {
+    font-size: 43px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.donate-plan-heading-area p {
+    color: #6a6868;
+}
+
+.donate-plan-single {
+    text-align: left;
+    margin: 0 20px;
+    padding: 40px 20px;
+    border-radius: 3px;
+}
+
+#bg-color-googsegg{
+background: #edf5f6;
+}
+#bg-color-lightpink{
+background: #ffeeee;
+}
+#bg-color-lightgold{
+background: #fff4d6;
+}
+
+.donate-plan-single img{
+    width: 43px;
+}
+.donate-plan-single h2{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.donate-plan-single p{
+    font-size: 13px;
+    color: rgb(100, 98, 98);
 }
